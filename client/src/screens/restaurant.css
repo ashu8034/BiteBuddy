@@ -1,0 +1,36 @@
+.more-img-tag {
+  cursor: pointer;
+  background-color: #ebd9eb;
+  background-repeat: no-repeat;
+  font-weight: 500;
+  background-position: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  font-family: "Ubuntu";
+  font-weight: 600;
+}
+.img-tag {
+  transition-property: all;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  background-color: #ebd9eb;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  font-weight: 500;
+  background-size: 110%;
+  background-position: center;
+}
+.img-tag:hover {
+  background-size: 115%;
+  opacity: 1;
+}
+
+.slick-next:before, .slick-prev:before{
+  color: black;
+  font-size: 30px;
+  position: relative;
+  right : 6px;
+}
